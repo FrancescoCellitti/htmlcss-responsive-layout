@@ -27,8 +27,9 @@ header {
         }
     }
 }
-section{
-    margin-bottom: 10px;
+
+section {
+    padding-bottom: 10px;
 }
 
 main {
@@ -112,15 +113,16 @@ main {
         display: none;
     }
 
+    .tiramisu {
+        max-width: 70%;
+        margin: 0 auto;
+    }
 }
 
 
 
 
-.tiramisu {
-    max-width: 70%;
-    margin: 0 auto;
-}
+
 
 footer {
     background-color: var(--color-footer);
@@ -167,14 +169,16 @@ footer {
             display: block;
             margin: 20px 0;
         }
+
+        .tiramisu {
+            float: left;
+            max-width: 30%;
+            max-height: 20%;
+            margin: 0 5px 0 0;
+        }
     }
 
-    .tiramisu {
-        float: left;
-        max-width: 30%;
-        max-height: 20%;
-        margin: 0 5px 0 0;
-    }
+
 
 }
 
@@ -205,10 +209,12 @@ footer {
     .container {
         max-width: 80%;
         margin: 0 auto;
-i{
-    display: flex;
-    text-align: center;
-}
+
+        i {
+            display: flex;
+            text-align: center;
+        }
+
         span {
             display: block;
         }
@@ -234,5 +240,8 @@ i{
             }
         }
     }
+
+}
+
 
 }
