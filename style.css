@@ -27,6 +27,9 @@ header {
         }
     }
 }
+section{
+    margin-bottom: 10px;
+}
 
 main {
     background-color: #ccc;
@@ -198,23 +201,34 @@ footer {
 
     }
 
+
     .container {
         max-width: 80%;
         margin: 0 auto;
+i{
+    display: flex;
+    text-align: center;
+}
+        span {
+            display: block;
+        }
+
     }
 
     footer {
         font-size: 10px;
-        
+
         .container {
             line-height: 20px;
             max-width: 98%;
             display: flex;
             justify-content: space-between;
-            .indicazioni{
+
+            .indicazioni {
                 text-align: left;
             }
-            .link{
+
+            .link {
                 display: flex;
                 align-self: center;
             }
